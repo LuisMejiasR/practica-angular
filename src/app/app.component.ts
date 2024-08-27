@@ -4,11 +4,12 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ProductComponent } from "./components/product/product.component";
 import { Product } from "./models/product.model";
 import { NgFor } from '@angular/common';
+import { UserComponent } from "./components/user/user.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ProductComponent, HttpClientModule, NgFor],
+  imports: [RouterOutlet, ProductComponent, HttpClientModule, NgFor, UserComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
