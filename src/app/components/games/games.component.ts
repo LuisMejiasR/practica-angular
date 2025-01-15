@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 @Component({
   selector: 'app-games',
   standalone: true,
-  imports: [GamesComponent],
+  imports: [],
   templateUrl: './games.component.html',
   styleUrl: './games.component.css'
 })
